@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 const NavBar = () => {
     return (
-        <nav className="flex justify-around content-center p-7 bg-white shadow-xl fixed w-full">
-            <h1 className="text-3xl hover:subpixel-antialiased font-bold uppercase">MyNews</h1>
+        <nav className="flex justify-around content-center p-7 bg-white shadow-xl w-full">
+            <Link href="/"><h1 className="text-3xl hover:subpixel-antialiased font-bold uppercase">MyNews</h1></Link> 
             <ul className="grid grid-cols-3 no-underline uppercase gap-4 sm:hidden">
                 <li className='justify-self-center self-center hover:underline underline-offset-1'>
                     <Link href="/">Best Sellers</Link>
