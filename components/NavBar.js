@@ -3,16 +3,16 @@ import Link from 'next/link'
 const NavBar = () => {
     return (
         <nav className="flex justify-around content-center p-7 bg-white shadow-xl w-full">
-            <Link href="/"><h1 className="text-3xl hover:subpixel-antialiased font-bold uppercase">MyNews</h1></Link> 
+            <Link href="/"><h1 className="cursor-pointer text-3xl hover:subpixel-antialiased font-bold uppercase">MyNews</h1></Link> 
             <ul className="grid grid-cols-3 no-underline uppercase gap-4 sm:hidden">
-                <li className='justify-self-center self-center hover:underline underline-offset-1'>
+                <li className='cursor-pointer justify-self-center self-center hover:underline underline-offset-1'>
                     <Link href="/">Best Sellers</Link>
                 </li>
-                <li className='justify-self-center self-center hover:underline underline-offset-1'>
-                    <Link href="/">Top</Link>
+                <li className='cursor-pointer justify-self-center self-center hover:underline underline-offset-1'>
+                    <Link href="/">Sections</Link>
                 </li>
-                <li className='justify-self-center self-center hover:underline underline-offset-1'>
-                    <Link href="/">Popular</Link>
+                <li className='cursor-pointer justify-self-center self-center hover:underline underline-offset-1'>
+                    <Link href="/">Most Popular</Link>
                 </li>
             </ul>
             <div className='md:hidden lg:hidden xl:hidden justify-self-center self-center'>
