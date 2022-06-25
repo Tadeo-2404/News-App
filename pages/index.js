@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import ArticlesHome from '../components/ArticlesHome';
+import SearchBar from '../components/SearchBar';
 
 export default function Home({ resultado }) {
   return (
@@ -8,6 +9,7 @@ export default function Home({ resultado }) {
         <title>News</title>
       </Head>
 
+      <SearchBar />
       <ArticlesHome resultado={resultado}/>
     </div>
   )

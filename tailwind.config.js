@@ -4,7 +4,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'searchBar': "url('/assets/bg-home.webp')",
+      }
+    },
     screens: {
       'sm': {'min': '375px', 'max': '767px'},
       'md': {'min': '768px', 'max': '991px'},
