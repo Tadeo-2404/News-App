@@ -13,8 +13,10 @@ const HomeArticles = ({ resultado }) => {
     });
 
     return (
-        <div className='flex flex-col p-5 w-full text-center gap-y-4 justify-center items-center'>
-            <img src={newArr.multimedia[0].url} alt='img-article' className='sm:w-full md:w-80 lg:w-96 xl:w-96 h-50' />
+        <div className='flex flex-col p-5 w-full text-center gap-y-4 justify-center items-center mt-20'>
+            {newArr.multimedia.length > 0 &&
+                <img loading='lazy' src={newArr.multimedia[0].url} alt='img-article' className='sm:w-full md:w-80 lg:w-96 xl:w-96 h-50' />
+            }
             <h3 className='font-bold text-2xl lg:w-96 xl:w-96'>{newArr.title}</h3>
             <div className='lg:w-96 xl:w-96'>
                 <p>{newArr.abstract}</p>
