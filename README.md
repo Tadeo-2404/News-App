@@ -1,3 +1,15 @@
+# News App Project
+## Description
+News App Project using NextJs, Tailwind CSS, Gulp, HeroIcons, Next-Router, Fetch API from New-York-Times-API
+
+## What it does
+<ul>
+  <li>Fetching Data from REST-API<l/i>
+  <li>Integrates Dynamic Routes<l/i>
+  <li>Show Articles data<l/i>
+  <li>Searching Articles from Search-API<l/i>
+</ul>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -17,6 +29,30 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Install Tailwind CSS
+
+First, run the command
+
+```bash
+npm install -D tailwindcss
+npx tailwindcss init
+```
+
+Then, configure your template file
+<code>
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+</code>
+
+Add the Tailwind directives to your CSS
+Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
+
 
 ## Learn More
 
