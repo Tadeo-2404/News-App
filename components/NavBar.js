@@ -122,7 +122,7 @@ const NavBar = () => {
                                                 <Link href="/top-stories/sports">sports</Link>
                                             </li>
                                             <li className='p-1 hover:underline'>
-                                                <Link href="/top-stories/technoloogy">technology</Link>
+                                                <Link href="/top-stories/technology">technology</Link>
                                             </li>
                                             <li className='p-1 hover:underline'>
                                                 <Link href="/top-stories/travel">travel</Link>
@@ -247,7 +247,7 @@ const NavBar = () => {
                                                 <Link href="/top-stories/sports">sports</Link>
                                             </li>
                                             <li className='p-1 hover:underline'>
-                                                <Link href="/top-stories/technoloogy">technology</Link>
+                                                <Link href="/top-stories/technology">technology</Link>
                                             </li>
                                             <li className='p-1 hover:underline'>
                                                 <Link href="/top-stories/travel">travel</Link>

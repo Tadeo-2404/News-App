@@ -1,4 +1,5 @@
 import { Fragment } from "react"
+import Footer from "./Footer"
 import NavBar from "./NavBar"
 
 const Layout = ({ children }) => {
@@ -9,6 +10,7 @@ const Layout = ({ children }) => {
         <main className="flex-1 flex flex-col content-center">
           {children}
         </main>
+        <Footer />
       </div>
     </Fragment>
 
