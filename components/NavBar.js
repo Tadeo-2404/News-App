@@ -24,7 +24,6 @@ const NavBar = () => {
                 <Link href="/"><h1 className="cursor-pointer text-3xl hover:subpixel-antialiased font-bold uppercase">MyNews</h1></Link>
                 <ul className="grid grid-cols-2 no-underline uppercase gap-4 sm:hidden">
                     <li className='cursor-pointer justify-self-center self-center hover:underline underline-offset-1'>
-                        <Link href="/">
                             <div className='relative'>
                                 <div className='flex gap-x-2'>
                                     <h3>Best Sellers</h3>
@@ -37,7 +36,7 @@ const NavBar = () => {
                                     <div className='absolute bg-white p-1 shadow-2xl'>
                                         <ul className='text-xs text-center'>
                                             <li className='p-1 hover:underline'>
-                                                <Link href="/best-sellers/paperback-trade-fiction">Paperback Trade Fiction</Link>
+                                                <Link href="/best-sellers/trade-fiction-paperback">Paperback Trade Fiction</Link>
                                             </li>
                                             <li className='p-1 hover:underline'>
                                                 <Link href="/best-sellers/hardcover-fiction">Hardcover Ficiton</Link>
@@ -55,7 +54,7 @@ const NavBar = () => {
                                                 <Link href="/best-sellers/combined-print-and-e-book-nonfiction">E-book NonFiciton</Link>
                                             </li>
                                             <li className='p-1 hover:underline'>
-                                                <Link href="/best-sellers/advice-and-how-to-miscellaneous">advice and how to miscellaneous</Link>
+                                                <Link href="/best-sellers/advice-how-to-and-miscellaneous">advice and how to miscellaneous</Link>
                                             </li>
                                             <li className='p-1 hover:underline'>
                                                 <Link href="/best-sellers/childrens-middle-grade-hardcover">childrens middle grade hardcover</Link>
@@ -70,10 +69,8 @@ const NavBar = () => {
                                     </div>
                                 }
                             </div>
-                        </Link>
                     </li>
                     <li className='cursor-pointer justify-self-center self-center hover:underline underline-offset-1'>
-                        <Link href="/">
                             <div className='relative'>
                                 <div className='flex gap-x-2'>
                                     <h3>Top stories</h3>
@@ -140,7 +137,6 @@ const NavBar = () => {
                                     </div>
                                 }
                             </div>
-                        </Link>
                     </li>
                 </ul>
                 <div className='md:hidden lg:hidden xl:hidden justify-self-center self-center' onClick={showNav}>
@@ -153,7 +149,6 @@ const NavBar = () => {
 
                 <ul className="grid grid-cols-2 no-underline uppercase gap-4 p-4 bg-white md:hidden lg:hidden xl:hidden transition-all">
                     <li className='cursor-pointer justify-self-center self-center hover:underline underline-offset-1'>
-                        <Link href="/">
                             <div className='relative'>
                                 <div className='flex gap-x-2'>
                                     <h3>Best Sellers</h3>
@@ -166,7 +161,7 @@ const NavBar = () => {
                                     <div className='absolute bg-white p-1 shadow-2xl'>
                                         <ul className='text-xs text-center'>
                                             <li className='p-1 hover:underline'>
-                                                <Link href="/best-sellers/paperback-trade-fiction">Paperback Trade Fiction</Link>
+                                                <Link href="/best-sellers/trade-fiction-paperback">Paperback Trade Fiction</Link>
                                             </li>
                                             <li className='p-1 hover:underline'>
                                                 <Link href="/best-sellers/hardcover-fiction">Hardcover Ficiton</Link>
@@ -184,7 +179,7 @@ const NavBar = () => {
                                                 <Link href="/best-sellers/combined-print-and-e-book-nonfiction">E-book NonFiciton</Link>
                                             </li>
                                             <li className='p-1 hover:underline'>
-                                                <Link href="/best-sellers/advice-and-how-to-miscellaneous">advice and how to miscellaneous</Link>
+                                                <Link href="/best-sellers/advice-how-to-and-miscellaneous">advice and how to miscellaneous</Link>
                                             </li>
                                             <li className='p-1 hover:underline'>
                                                 <Link href="/best-sellers/childrens-middle-grade-hardcover">childrens middle grade hardcover</Link>
@@ -199,10 +194,8 @@ const NavBar = () => {
                                     </div>
                                 }
                             </div>
-                        </Link>
                     </li>
                     <li className='cursor-pointer justify-self-center self-center hover:underline underline-offset-1'>
-                        <Link href="/">
                             <div className='relative'>
                                 <div className='flex gap-x-2'>
                                     <h3>Top stories</h3>
@@ -269,7 +262,6 @@ const NavBar = () => {
                                     </div>
                                 }
                             </div>
-                        </Link>
                     </li>
                 </ul>
             }
