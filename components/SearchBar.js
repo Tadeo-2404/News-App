@@ -23,7 +23,7 @@ const SearchBar = () => {
   }
 
   return (
-    <div className="mt-20 p-20 flex flex-col justify-center items-center bg-searchBar bg-top bg-no-repeat bg-cover bg-fixed">
+    <div className="mt-20 p-20 flex flex-col justify-center items-center bg-searchBar bg-top bg-no-repeat bg-cover bg-fixed sm:bg-contain">
       <div className="p-4 flex flex-col justify-center items-center gap-y-4">
         <div className="text-5xl font-extrabold text-center">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-black to-yellow-400">
